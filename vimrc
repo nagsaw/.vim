@@ -21,6 +21,11 @@ set t_Co=256
 colorscheme molokai
 hi Comment ctermfg=102
 hi Visual ctermbg=255
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+highlight LineNr ctermbg=none
+highlight Folded ctermbg=none
+highlight EndOfBuffer ctermbg=none
 set showmode
 set showcmd
 set title
